@@ -5,3 +5,30 @@ GA 보고서 확인 방법
 
 2.전환이벤트 설정 :
 여러 이벤트 가운데 중요이벤트를 별도로 선별하고자 할 때
+
+*터미널 3개
+- powershell
+- 명령 프롬프트 = cmd // 보안 // 외부 라이브러리 및 앱 설치 제한
+- git-bash : 브랜치 이름 => 현재 내가 어떤 브랜치에 있는지를 알 수 있음
+
+1.git -v : 로컬컴퓨터 내 깃 설치여부 확인을 위해서 git 버전 확인
+
+2.git config --list : 로컬컴퓨터 내 git 소유주 정보
+> 반드시 전역요소로 설치 (*global)
+git config --global user.name "Divjason"
+git config --global user.email "sejinpark@tcocs.com"
+
+3.원격 레포지토리와 연동
+> git remote add origin https://github.com/Divjason/digitalmkt-megastudy.git
+
+> 연동 확인 : git remote -v
+
+4.스테이징 영역으로 데이터를 추가
+> git add .
+
+5.스테이징 영역으로 정상적으로 데이터가 추가되었는지 확인
+> git status
+
+6.커밋 메세지를 생성
+> 나중에 해당 메세지를 근거로 버전을 찾아오거나 돌릴 수 있음
+> git commit -m "250122"
