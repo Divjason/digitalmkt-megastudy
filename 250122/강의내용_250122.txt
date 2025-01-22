@@ -32,3 +32,5 @@ git config --global user.email "sejinpark@tcocs.com"
 6.커밋 메세지를 생성
 > 나중에 해당 메세지를 근거로 버전을 찾아오거나 돌릴 수 있음
 > git commit -m "250122"
+
+*featurePark이 작업!!!
